@@ -1,0 +1,16 @@
+[project]
+name = "csrankings-updater"
+version = "0.1.0"
+description = "Script (eventual GUI) to add/remove faculty from CSRankings"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.3",
+    "levenshtein>=0.27.1",
+    "requests>=2.32.3",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.2",
+]
