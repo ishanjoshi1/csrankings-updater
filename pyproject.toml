@@ -14,3 +14,40 @@ dependencies = [
 dev = [
     "ruff>=0.11.2",
 ]
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+
+[tool.ruff.lint]
+exclude = [
+    ".txt",
+    ".ruff_cache",
+    "__pycache__",
+    "env",
+]
+select = [
+    "ALL",
+]
+ignore = [
+    "C901",
+    "D100",
+    "D101",
+    "D102",
+    "D103",
+    "D107",
+    "D203",
+    "D212",
+    "D401",
+    "E501",
+    "ERA001",
+    "F403",
+    "F405",
+    "F841",
+    "PLR0912",
+    "PLR0915",
+    "PLR2004",
+
+    #### linter
+    "COM812"
+]
