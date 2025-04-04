@@ -1,6 +1,7 @@
 .ruff_cache
 .venv
 build
+CSrankings
 dist
 *.spec
 .DS_Store
